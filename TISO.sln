@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TISO", "TISO\TISO.csproj", "{F1FEFC4F-6F82-4050-AC85-05F3E67F415A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1FEFC4F-6F82-4050-AC85-05F3E67F415A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FEFC4F-6F82-4050-AC85-05F3E67F415A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FEFC4F-6F82-4050-AC85-05F3E67F415A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FEFC4F-6F82-4050-AC85-05F3E67F415A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F014FE6F-7FDF-43CD-8FFE-C4CBBB940D7C}
+	EndGlobalSection
+EndGlobal
