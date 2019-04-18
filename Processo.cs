@@ -12,11 +12,23 @@ namespace TISO
         public int Prioridade { get; set; }
         public string Nome { get; set; }
         public int ID { get; set; }
-        public Processo(string Nome, int ID, int Prioridade) // Construtor.
+        public int QtdeCiclos { get; set; }
+
+
+        /// <summary>
+        /// Construtor da classe.
+        /// </summary>
+        /// <param name="Nome"></param>
+        /// <param name="ID"></param>
+        /// <param name="Prioridade"></param>
+        public Processo(string Nome, int ID, int Prioridade, int QtdeCiclos) 
         {
             this.Nome = Nome;
             this.ID = ID;
             this.Prioridade = Prioridade;
         }
+
+
+
     }
 }

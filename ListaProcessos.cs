@@ -9,34 +9,76 @@ namespace TISO
     public class ListaProcessos
     {
         Processo Sentinela;
+
+        /// <summary>
+        /// Verifica se a lista de processo se enconta vazia.
+        /// </summary>
+        /// <returns></returns>
         public bool Vazia()
         {
             return Sentinela.Prox == null;
         }
-        public void Add(string Nome, int ID, int Prioridade) // Adicionar processo.
+
+        /// <summary>
+        /// Adiciona um processo para na fila.
+        /// </summary>
+        /// <param name="Nome"></param>
+        /// <param name="ID"></param>
+        /// <param name="Prioridade"></param>
+        public void Add(string Nome, int ID, int Prioridade) 
         {
             Processo Novo = new Processo(Nome, ID, Prioridade);
 
         }
-        public Processo Remove(string Nome) // Remove processo.
+
+        /// <summary>
+        /// Remove  o processo de acordo com o nome.
+        /// </summary>
+        /// <param name="Nome"></param>
+        /// <returns></returns>
+        public Processo Remove(string Nome)
         {
 
             return null;
         }
-        public Processo Buscar(int ID) // Busca processo por ID.
+
+        /// <summary>
+        /// Busca um processo de acordo com sua ID.
+        /// </summary>
+        /// <param name="ID"></param>
+        /// <returns></returns>
+        public Processo Buscar(int ID) 
         {
 
             return null;
         }
-        public void AlterarPrio(int ID, int Prioridade) // Altera prioridade do processo por ID.
+
+
+        /// <summary>
+        /// Altera a prioridade de um processo.
+        /// </summary>
+        /// <param name="ID"></param>
+        /// <param name="Prioridade"></param>
+        public void AlterarPrio(int ID, int Prioridade) 
         {
 
         }
-        public override string ToString() // Imprime processos.
+
+
+        /// <summary>
+        /// Retorno uma o processo em forma de string.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString() 
         {
             return base.ToString();
         }
-        public ListaProcessos() // Construtor.
+
+
+        /// <summary>
+        /// Construtor da classe.
+        /// </summary>
+        public ListaProcessos() 
         {
             Sentinela = new Processo(null, -1, -1);
             Sentinela.Prox = Sentinela;
