@@ -17,6 +17,7 @@ namespace TISO
             this.Nome = Nome;
             this.ID = ID;
             this.Prioridade = Prioridade;
+            //this.Prioridade = aleatorio;
         }
     }
 }
